@@ -1,0 +1,39 @@
+<template>
+    <md-button
+    :class="['btn',btnClass]" 
+    :style="{'background-color': setButtonColor, color: setTextColor}" 
+    > {{text}}</md-button>
+</template>
+
+<script>
+export default {
+    props: ["text", "buttonColor", "textColor", "btnClass"],
+    computed: {
+        setButtonColor: function() {
+            if(!this.buttonColor) {
+                return "#f67280"
+            }
+        },
+        setTextColor: function() {
+            if(!this.textColor) {
+                return "white"
+            }
+        },
+        
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+.btn {
+    border-radius: 4.5rem;
+    padding: 5px;
+    width: 12rem;
+    color: white;
+    height: 3rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+</style>
