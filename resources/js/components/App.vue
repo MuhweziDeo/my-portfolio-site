@@ -1,5 +1,5 @@
 <template>
-    <h1>App</h1>
+  <md-content class="md-elevation-24">Meet Deo Your Deeveloper</md-content>
 </template>
 
 <script>
