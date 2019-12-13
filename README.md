@@ -1,2 +1,6 @@
-# my-portfolio-site
-This a simple portfolio site which will show information about me
+## My Site showcasing everything I have done and doing
+
+#### Site Stack 
+
+- PHP/Laravel
+- Vue Vue-router 
