@@ -18,6 +18,6 @@
     <body>
     <div id="app">
     </div>
-    <script src="{{asset('js/app.js', false) }}" defer> </script> 
+    <script src="{{asset('js/app.js', true) }}" defer> </script> 
     </body>
 </html>

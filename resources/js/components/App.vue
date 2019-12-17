@@ -1,28 +1,29 @@
 <template>
 <div class="content">
-<Header/>
+  <Header/>
+  <WhatIDo/>
 </div>
 </template>
 
 <script>
 import Header from "./shared/Header";
+import WhatIDo from "./shared/WhatIDo";
 
 export default {
 components: {
-    Header
+    Header, WhatIDo
 }    
 }
 </script>
 
-<style>
+<style scoped>
 * {
     padding: 0;
-    /* margin: 0; */
+    margin: 0;
 }
 body{
 background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
-height: 100vh;
 
 }
 
