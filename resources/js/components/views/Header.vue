@@ -31,7 +31,7 @@
 
 
 <script>
-    import Button from "./Button";
+    import Button from "../shared/Button";
     
     export default {
         components: {
@@ -96,8 +96,6 @@
 
         &__right {
 
-            // margin: 10rem;
-            //    background: yellow;
             .img {
                 width: 100%;
                 padding-left: 10rem;
@@ -110,7 +108,9 @@
             padding: 1rem;
             border-radius: 45px;
             width: 45%;
-            transform: translateX(40rem) translateY(-5rem);
+            transform: translateX(38rem) translateY(-5rem);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
         
         }
 

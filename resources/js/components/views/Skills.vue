@@ -91,8 +91,8 @@
 </template>
 
 <script>
-    import FollowMe from "./FollowMe";
-    import Progress  from "./CircularProgress";
+    import FollowMe from "../shared/FollowMe";
+    import Progress  from "../shared/CircularProgress";
 
     export default {
         components: {

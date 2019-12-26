@@ -27,11 +27,11 @@ export default {
 <style lang="scss" scoped>
 .btn {
     border-radius: 4.5rem;
-    padding: 5px;
     width: 12rem;
     color: white;
     height: 3rem;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    text-transform: none;
     
 }
 
