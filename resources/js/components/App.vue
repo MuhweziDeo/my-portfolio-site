@@ -3,19 +3,34 @@
         <Header />
         <WhatIDo />
         <Skills />
+        <Projects/>
+        <MyStacks/>
+        <Repos/>
+        <HireMe/>
+        <Footer/>
     </div>
 </template>
 
 <script>
-    import Header from "./shared/Header";
-    import WhatIDo from "./shared/WhatIDo";
-    import Skills from "./shared/Skills";
-
+    import Header from "./views/Header";
+    import WhatIDo from "./views/WhatIDo";
+    import Skills from "./views/Skills";
+    import Projects from "./views/Projects";
+    import MyStacks from "./views/Technologies";
+    import Footer from './shared/Footer.vue';
+    import Repos from "./views/Repos";
+    import HireMe from "./views/HireMe";
+    
     export default {
         components: {
             Header,
             WhatIDo,
-            Skills
+            Skills,
+            Projects,
+            MyStacks,
+            Footer,
+            Repos,
+            HireMe
         }
     }
 
@@ -29,8 +44,6 @@
 
     body {
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-
-
     }
 
     .content {
