@@ -16,11 +16,11 @@
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
         <link href="{{asset('css/app.css')}}">
-        
+
     </head>
     <body>
     <div id="app">
     </div>
-    <script src="{{asset('js/app.js', true) }}" defer> </script> 
+    <script src="{{asset('js/app.js', false) }}" defer> </script>
     </body>
 </html>

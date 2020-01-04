@@ -2703,7 +2703,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".header[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  justify-items: flex-end;\n  -webkit-transform: translateY(30%);\n          transform: translateY(30%);\n}\n.header .text[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: start;\n          justify-content: flex-start;\n  word-spacing: 0.2rem;\n}\n.header .text--1[data-v-24256639] {\n  color: #f67280;\n  margin-right: 0.4rem;\n}\n.header .intro[data-v-24256639] {\n  font-weight: 300;\n  color: grey;\n}\n.header .job[data-v-24256639] {\n  font-size: 0.7rem;\n  text-transform: uppercase;\n}\n.header .hire-me[data-v-24256639] {\n  width: 80%;\n  margin-top: -0.6rem;\n  margin-left: -0.1rem;\n}\n.header__left[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: start;\n          align-items: flex-start;\n  align-self: center;\n}\n.header__call-to-action[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: start;\n          justify-content: flex-start;\n}\n.header__button[data-v-24256639] {\n  border: 0.1rem solid #f67280;\n  color: #f67280;\n  background: white;\n}\n.header__right .img[data-v-24256639] {\n  width: 100%;\n  padding-left: 10rem;\n}\n.header .social[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  padding: 1rem;\n  border-radius: 45px;\n  width: 45%;\n  -webkit-transform: translateX(38rem) translateY(-5rem);\n          transform: translateX(38rem) translateY(-5rem);\n  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  cursor: pointer;\n}\n.header .fa[data-v-24256639] {\n  cursor: pointer;\n  color: #f67280;\n}\n.header .fa.fa-facebook[data-v-24256639] {\n  border-radius: 45px;\n}", ""]);
+exports.push([module.i, ".header__button[data-v-24256639] {\n  border: 0.1rem solid #f67280;\n  color: red;\n  background: white;\n  width: 100%;\n}\n.header .intro[data-v-24256639] {\n  font-weight: 300;\n  color: grey;\n}\n.header .social[data-v-24256639] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  padding: 1rem;\n  border-radius: 45px;\n  width: 100%;\n  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  cursor: pointer;\n  margin-top: 1rem;\n}\n.header .hire-me[data-v-24256639] {\n  width: 100%;\n  margin-top: -0.6rem;\n  margin-left: -0.2rem;\n}\n@media (min-width: 70em) {\n.header[data-v-24256639] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    justify-items: flex-end;\n    -webkit-transform: translateY(30%);\n            transform: translateY(30%);\n}\n.header .text[data-v-24256639] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: start;\n            justify-content: flex-start;\n    word-spacing: 0.2rem;\n}\n.header .text--1[data-v-24256639] {\n    color: #f67280;\n    margin-right: 0.4rem;\n}\n.header .intro[data-v-24256639] {\n    font-weight: 300;\n    color: grey;\n}\n.header .job[data-v-24256639] {\n    font-size: 0.7rem;\n    text-transform: uppercase;\n}\n.header .hire-me[data-v-24256639] {\n    width: 100%;\n    margin-top: -0.6rem;\n    margin-left: -0.1rem;\n}\n.header__left[data-v-24256639] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: start;\n            align-items: flex-start;\n    align-self: center;\n}\n.header__call-to-action[data-v-24256639] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: start;\n            justify-content: flex-start;\n}\n.header__right .img[data-v-24256639] {\n    width: 100%;\n    padding-left: 10rem;\n}\n.header .social[data-v-24256639] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    padding: 1rem;\n    border-radius: 45px;\n    width: 45%;\n    -webkit-transform: translateX(38rem) translateY(-5rem);\n            transform: translateX(38rem) translateY(-5rem);\n    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n    cursor: pointer;\n}\n.header .fa[data-v-24256639] {\n    cursor: pointer;\n    color: #f67280;\n}\n.header .fa.fa-facebook[data-v-24256639] {\n    border-radius: 45px;\n}\n}", ""]);
 
 // exports
 
@@ -2722,7 +2722,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".projects[data-v-9e4d6eb4] {\n  display: -webkit-box;\n  display: flex;\n  padding: 5rem;\n  -webkit-box-pack: space-evenly;\n          justify-content: space-evenly;\n}\n.projects__left[data-v-9e4d6eb4] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  align-self: center;\n  margin-right: 2rem;\n}\n.projects__left h3[data-v-9e4d6eb4] {\n  color: #f67280;\n}\n.projects__left h1[data-v-9e4d6eb4] {\n  text-transform: uppercase;\n}\n.projects__right img[data-v-9e4d6eb4] {\n  width: 40rem;\n}", ""]);
+exports.push([module.i, ".projects[data-v-9e4d6eb4] {\n  display: -webkit-box;\n  display: flex;\n  padding: 2rem;\n  -webkit-box-pack: space-evenly;\n          justify-content: space-evenly;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n}\n@media (min-width: 70em) {\n.projects[data-v-9e4d6eb4] {\n    padding: 5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n.projects__left[data-v-9e4d6eb4] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    align-self: center;\n    margin-right: 2rem;\n}\n.projects__left h3[data-v-9e4d6eb4] {\n    color: #f67280;\n}\n.projects__left h1[data-v-9e4d6eb4] {\n    text-transform: uppercase;\n}\n.projects__right img[data-v-9e4d6eb4] {\n    width: 40rem;\n}\n}", ""]);
 
 // exports
 
@@ -2779,7 +2779,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "h1[data-v-7b2b1e54] {\n  text-transform: uppercase;\n}\ni[data-v-7b2b1e54] {\n  font-size: 5rem;\n  color: #f67280;\n  cursor: pointer;\n  padding: 1rem;\n}\n.header[data-v-7b2b1e54] {\n  text-align: center;\n  color: #f67280;\n}\n.stacks[data-v-7b2b1e54] {\n  margin-top: 4rem;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n}\n.stacks__languages[data-v-7b2b1e54] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.stacks__frameworks[data-v-7b2b1e54] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.stacks__databases[data-v-7b2b1e54] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.stacks__tools[data-v-7b2b1e54] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.stacks__testing[data-v-7b2b1e54] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}", ""]);
+exports.push([module.i, "@media (min-width: 70em) {\ni[data-v-7b2b1e54] {\n    font-size: 5rem;\n    color: #f67280;\n    cursor: pointer;\n    padding: 1rem;\n}\n.stacks[data-v-7b2b1e54] {\n    margin-top: 4rem;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n}\n.stacks__languages[data-v-7b2b1e54] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    margin-bottom: 2rem;\n    padding: 1rem;\n}\n.stacks__frameworks[data-v-7b2b1e54] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    margin-bottom: 2rem;\n    padding: 1rem;\n}\n.stacks__databases[data-v-7b2b1e54] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    margin-bottom: 2rem;\n    padding: 1rem;\n}\n.stacks__tools[data-v-7b2b1e54] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    margin-bottom: 2rem;\n    padding: 1rem;\n}\n.stacks__testing[data-v-7b2b1e54] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n    margin-bottom: 2rem;\n    padding: 1rem;\n}\n}\ni[data-v-7b2b1e54] {\n  font-size: 3rem;\n  color: #f67280;\n}\nh1[data-v-7b2b1e54] {\n  text-transform: uppercase;\n  font-size: 1rem;\n}\n.stacks[data-v-7b2b1e54] {\n  margin-top: 2rem;\n  text-align: center;\n}\n.header[data-v-7b2b1e54] {\n  text-align: center;\n  color: #f67280;\n}", ""]);
 
 // exports
 
@@ -2798,7 +2798,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".do .icon img[data-v-60a2d6f4] {\n  width: 4rem;\n}\n.do__header[data-v-60a2d6f4] {\n  text-align: center;\n}\n.do__header h1[data-v-60a2d6f4] {\n  color: #f67280;\n}\n.do__header h2[data-v-60a2d6f4] {\n  text-transform: uppercase;\n}\n.do__content[data-v-60a2d6f4] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n  padding: 2rem;\n}\n.do__item[data-v-60a2d6f4] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  padding: 0.8rem;\n}\n.do__item .icon[data-v-60a2d6f4] {\n  padding: 0.6rem;\n  border-radius: 45px;\n  background: #f67280;\n  margin-left: 0.2rem;\n}\n.do__item .text[data-v-60a2d6f4] {\n  font-weight: 300;\n  color: grey;\n  margin-left: 1.3rem;\n}\n.do.container[data-v-60a2d6f4] {\n  margin-top: 10rem;\n  padding: 4rem;\n}", ""]);
+exports.push([module.i, ".do .icon img[data-v-60a2d6f4] {\n  width: 4rem;\n}\n.do__header[data-v-60a2d6f4] {\n  text-align: center;\n}\n@media (max-width: 37.5em) {\n.do__header[data-v-60a2d6f4] {\n    padding: 2rem;\n    margin-top: 2rem;\n}\n}\n.do__header h1[data-v-60a2d6f4] {\n  color: #f67280;\n}\n.do__header h2[data-v-60a2d6f4] {\n  text-transform: uppercase;\n}\n.do__item[data-v-60a2d6f4] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  padding: 0.8rem;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n}\n.do__item .icon[data-v-60a2d6f4] {\n  padding: 0.6rem;\n  border-radius: 45px;\n  background: #f67280;\n  margin-left: 0.2rem;\n}\n.do__item .text[data-v-60a2d6f4] {\n  font-weight: 300;\n  color: grey;\n  margin-left: 1.3rem;\n  text-align: center;\n}\n@media (min-width: 70em) {\n.do .icon img[data-v-60a2d6f4] {\n    width: 4rem;\n}\n.do__content[data-v-60a2d6f4] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    padding: 2rem;\n}\n.do__item[data-v-60a2d6f4] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n.do__item .text[data-v-60a2d6f4] {\n    text-align: left;\n}\n.do.container[data-v-60a2d6f4] {\n    margin-top: 10rem;\n    padding: 4rem;\n}\n}", ""]);
 
 // exports
 
@@ -21739,7 +21739,7 @@ var render = function() {
       _vm._m(1),
       _vm._v(" "),
       _c("h4", { staticClass: "header intro" }, [
-        _vm._v(" Freelance FullStack Developer & Love to Play Games")
+        _vm._v("I  Love to Play Games and Code")
       ]),
       _vm._v(" "),
       _c(
@@ -21766,7 +21766,7 @@ var render = function() {
     _c("div", { staticClass: "header__right" }, [
       _c("img", {
         staticClass: "img",
-        attrs: { src: __webpack_require__(/*! ../../img/placeholder.png */ "./resources/js/img/placeholder.png"), alt: "No Image" }
+        attrs: { src: __webpack_require__(/*! ../../img/39124174.png */ "./resources/js/img/39124174.png"), alt: "No Image" }
       }),
       _vm._v(" "),
       _c(
@@ -21802,7 +21802,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "header job" }, [
-      _c("h1", [_vm._v("JAVASCRIPT Engineer")])
+      _c("h1", [_vm._v("FullStack Engineer")])
     ])
   }
 ]
@@ -109552,6 +109552,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/img/39124174.png":
+/*!***************************************!*\
+  !*** ./resources/js/img/39124174.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/39124174.png?6a6aadaeee7ae759823efe8dc9358416";
+
+/***/ }),
+
 /***/ "./resources/js/img/code.svg":
 /*!***********************************!*\
   !*** ./resources/js/img/code.svg ***!
@@ -109604,17 +109615,6 @@ module.exports = "/images/diagram.svg?5e933d987c238290a7f66e648e9a7b02";
 /***/ (function(module, exports) {
 
 module.exports = "/fonts/font.svg?7936a9aca981d7cb507dfd4fa63b9e60";
-
-/***/ }),
-
-/***/ "./resources/js/img/placeholder.png":
-/*!******************************************!*\
-  !*** ./resources/js/img/placeholder.png ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/placeholder.png?48fbf10506c19ce6d73e6ab1e4f25312";
 
 /***/ }),
 

@@ -84,16 +84,17 @@
     </div>
 </template>
 
-<script>  
+<script>
     export default {
       created: function() {
-        
+
       }
     }
 
 </script>
 
 <style lang="scss" scoped>
+    @import "resources/js/css/_variables.scss";
     $color: #f67280;
 
     @mixin flex {
@@ -105,15 +106,52 @@
         padding: 1rem;
     }
 
-    h1 {
-      text-transform: uppercase;
+    @include breakpoint(desktop) {
+        i {
+            font-size: 5rem;
+            color: $color;
+            cursor: pointer;
+            padding: 1rem;
+        }
+        .stacks {
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: column;
+
+            &__languages {
+                @include flex();
+
+            }
+
+            &__frameworks {
+                @include flex();
+            }
+
+            &__databases{
+                @include flex();
+            }
+
+            &__tools {
+                @include flex();
+            }
+
+            &__testing {
+                @include flex();
+            }
+        }
     }
 
     i {
-        font-size: 5rem;
+        font-size: 3rem;
         color: $color;
-        cursor: pointer;
-        padding: 1rem;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .stacks {
+        margin-top: 2rem;
+        text-align: center;
     }
 
     .header {
@@ -121,30 +159,4 @@
         color: $color;
     }
 
-    .stacks {
-      margin-top: 4rem;
-      display: flex;
-      flex-direction: column;
-
-      &__languages {
-       @include flex();
-
-      }
-
-      &__frameworks {
-        @include flex();
-      }
-
-      &__databases{
-         @include flex();
-      }
-
-      &__tools {
-        @include flex();
-      }
-
-      &__testing {
-        @include flex();
-      }
-    }
 </style>

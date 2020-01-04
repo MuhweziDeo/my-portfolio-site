@@ -92,18 +92,20 @@
 
 
 <style lang="scss" scoped>
+    @import "resources/js/css/_variables.scss";
     $color: #f67280;
-
     .do {
         .icon {
             img {
                 width: 4rem;
             }
         }
-
         &__header {
             text-align: center;
-
+            @include breakpoint(mobileonly) {
+                padding: 2rem;
+                margin-top: 2rem;
+            }
             h1 {
                 color: $color;
             }
@@ -112,19 +114,11 @@
                 text-transform: uppercase;
             }
         }
-
-        &__content {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
-        }
-
         &__item {
             display: flex;
             align-items: center;
             padding: .8rem;
+            flex-direction: column;
             .icon {
                 padding: .6rem;
                 border-radius: 45px;
@@ -136,14 +130,39 @@
                 font-weight: 300;
                 color: grey;
                 margin-left: 1.3rem;
-                // color: #f67280;
+                text-align: center;
             }
         }
     }
+    @include breakpoint(desktop) {
+        .do {
+            .icon {
+                img {
+                    width: 4rem;
+                }
+            }
 
-    .do.container {
-        margin-top: 10rem;
-        padding: 4rem;
+            &__content {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem;
+            }
+
+            &__item {
+                flex-direction: row;
+                .text {
+                    text-align: left;
+                }
+            }
+        }
+
+        .do.container {
+            margin-top: 10rem;
+            padding: 4rem;
+        }
     }
+
 
 </style>
