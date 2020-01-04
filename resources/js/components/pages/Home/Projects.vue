@@ -10,14 +10,14 @@
       </div>
 
       <div class="projects__right md-elevation-4">
-        <img  src="../../img/d.jpg"/>
+        <img  src="../../../img/d.jpg"/>
       </div>
 
   </div>
 </template>
 
 <script>
- import Button from "../shared/Button";
+ import Button from "../../shared/Button";
  export default {
      components: {
             Button
@@ -27,7 +27,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "resources/js/css/_variables.scss";
+    @import "../../../css/variables";
     $color: #f67280;
     .projects {
         display: flex;

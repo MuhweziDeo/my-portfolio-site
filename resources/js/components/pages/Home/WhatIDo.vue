@@ -9,7 +9,7 @@
             <div class="do__job--left">
                 <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/code.svg" alt="">
+                        <img src="../../../img/code.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -20,7 +20,7 @@
 
                  <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/development.svg" alt="">
+                        <img src="../../../img/development.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -31,7 +31,7 @@
 
                  <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/font.svg" alt="">
+                        <img src="../../../img/font.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -45,7 +45,7 @@
             <div class="do__job--right">
                 <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/quality.svg" alt="">
+                        <img src="../../../img/quality.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -56,7 +56,7 @@
 
                  <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/diagram.svg" alt="">
+                        <img src="../../../img/diagram.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -67,7 +67,7 @@
 
                  <div class="do__item">
                     <div class="icon">
-                        <img src="../../img/website.svg" alt="">
+                        <img src="../../../img/website.svg" alt="">
                     </div>
 
                     <div class="text">
@@ -92,7 +92,7 @@
 
 
 <style lang="scss" scoped>
-    @import "resources/js/css/_variables.scss";
+    @import "../../../css/variables";
     $color: #f67280;
     .do {
         .icon {

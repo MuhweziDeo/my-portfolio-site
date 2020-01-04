@@ -11,9 +11,9 @@
                 <md-card md-with-hover>
                     <md-card-header>
                         <md-card-header-text class="skill">
-                             
+
                             <div class="md-title skill__level">
-                                <Progress progressClass="progress-60" percentage="60"/> 
+                                <Progress progressClass="progress-60" percentage="60"/>
                                 <p>Front-End Development</p>
                                 </div>
                             <div class="md-subhead skill__name">Bild your front end application using latest technology such as Vue Js, React Js and Angular</div>
@@ -24,7 +24,7 @@
                 <md-card md-with-hover>
                     <md-card-header>
                         <md-card-header-text class="skill">
-                             
+
                             <div class="md-title skill__level">
                                 <Progress progressClass="progress-60" percentage="60"/>
                                 <p>Backend Developemnt</p>
@@ -37,7 +37,7 @@
                 <md-card md-with-hover>
                     <md-card-header>
                         <md-card-header-text class="skill">
-                            
+
                             <div class="md-title skill__level">
                                  <Progress progressClass="progress-45" percentage="50"/>
                                  <p>Mobile Developemnt</p>
@@ -91,8 +91,8 @@
 </template>
 
 <script>
-    import FollowMe from "../shared/FollowMe";
-    import Progress  from "../shared/CircularProgress";
+    import FollowMe from "../../shared/FollowMe";
+    import Progress  from "../../shared/CircularProgress";
 
     export default {
         components: {

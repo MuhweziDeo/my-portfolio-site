@@ -14,5 +14,5 @@ const app = new Vue({
     el: '#app',
     router,
     render: h => h(App)
-})
+});
 export default app;

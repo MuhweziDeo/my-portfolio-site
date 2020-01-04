@@ -18,7 +18,7 @@
         </div>
 
         <div class="header__right">
-            <img class="img" src="../../img/39124174.png" alt="No Image" />
+            <img class="img" src="../../../img/39124174.png" alt="No Image" />
             <div class="social md-elevation-4">
            <md-icon class="fa fa-facebook"></md-icon>
            <md-icon class="fa fa-github"></md-icon>
@@ -31,7 +31,7 @@
 
 
 <script>
-    import Button from "../shared/Button";
+    import Button from "../../shared/Button";
 
     export default {
         components: {
@@ -42,7 +42,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "resources/js/css/_variables.scss";
+    @import "../../../css/variables";
 
     .header {
         &__button {
