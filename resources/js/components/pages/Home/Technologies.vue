@@ -94,7 +94,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "resources/js/css/_variables.scss";
+    @import "../../../css/variables";
     $color: #f67280;
 
     @mixin flex {
