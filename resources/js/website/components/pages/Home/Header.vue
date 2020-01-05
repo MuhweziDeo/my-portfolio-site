@@ -49,7 +49,7 @@
             border: .1rem solid #f67280;
             color: red;
             background: white;
-            width: 100%;
+            width: 10rem;
         }
         .intro {
             font-weight: 300;
@@ -68,7 +68,7 @@
         }
 
         .hire-me {
-            width: 100%;
+            width: 10rem;
             margin-top: -.6rem;
             margin-left: -.2rem;
         }
@@ -102,12 +102,6 @@
             .job {
                 font-size: .7rem;
                 text-transform: uppercase;
-            }
-
-            .hire-me {
-                width: 100%;
-                margin-top: -.6rem;
-                margin-left: -.1rem;
             }
 
             &__left {
