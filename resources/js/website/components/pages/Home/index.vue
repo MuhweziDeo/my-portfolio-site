@@ -5,7 +5,7 @@
         <Skills />
         <Projects/>
         <MyStacks/>
-        <Repos/>
+        <Slider/>
         <HireMe/>
         <Footer/>
     </div>
@@ -20,6 +20,7 @@
     import Footer from '../../shared/Footer.vue';
     import Repos from "./Repos";
     import HireMe from "./HireMe";
+    import Slider from "./Testimonial";
 
     export default {
         components: {
@@ -30,7 +31,8 @@
             MyStacks,
             Footer,
             Repos,
-            HireMe
+            HireMe,
+            Slider
         }
     }
 

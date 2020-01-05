@@ -5,7 +5,7 @@
 
           <h1>Latest Project</h1>
 
-       <Button text="My Portofolios" />
+       <Button text="My Portfolios" />
 
       </div>
 
@@ -55,6 +55,7 @@
             &__right {
                 img {
                     width: 40rem;
+                    cursor: pointer;
                 }
             }
         }
