@@ -1,5 +1,4 @@
 <template>
-    <div>
 
         <div class="footer">
                 <div class="social-icons md-elevation-4">
@@ -9,23 +8,24 @@
                     <md-icon class="fa fa-google"></md-icon>
                 </div>
             <md-bottom-bar class="footer__nav">
-                <md-bottom-bar-item md-label="Home" md-icon="home" @click="theme = 'teal'"></md-bottom-bar-item>
-                <md-bottom-bar-item md-label="Blog" md-icon="pages" @click="theme = 'orange'"></md-bottom-bar-item>
-                <md-bottom-bar-item md-label="Portofolio" md-icon="pages" @click="theme = 'blue'"></md-bottom-bar-item>
-                <md-bottom-bar-item md-label="Contact me" md-icon="favorite"></md-bottom-bar-item>
+                <md-bottom-bar-item md-label="Home" md-icon="home" @click="navigate('/')"></md-bottom-bar-item>
+                <md-bottom-bar-item md-label="About"  md-icon="pages" @click="navigate('about')"></md-bottom-bar-item>
+                <md-bottom-bar-item md-label="Portofolio" md-icon="pages" @click="navigate('portofolio')"></md-bottom-bar-item>
+                <md-bottom-bar-item md-label="Contact me" @click="navigate('contact')" md-icon="favorite"></md-bottom-bar-item>
             </md-bottom-bar>
             <md-button class="md-fab">
                 <md-icon>chat</md-icon>
             </md-button>
         </div>
-    </div>
 </template>
 
 <script>
     export default {
-        data: () => ({
-            theme: 'teal'
-        })
+        methods: {
+            navigate(url) {
+                this.$router.push(url);
+            }
+        }
     }
 
 </script>
@@ -40,7 +40,11 @@
     .footer {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+        width: 80%;
+        height: 2.5rem;
         &__nav {
             color: white;
             box-shadow: none;

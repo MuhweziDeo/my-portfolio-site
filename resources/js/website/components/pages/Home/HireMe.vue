@@ -3,7 +3,7 @@
       <md-card class="md-primary" md-theme="purple-card" md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">Have a project in mind Lets discuss  <span class="span">Say Hello At</span></div> 
+          <div class="md-title">Have a project in mind Lets discuss  <span class="span">Say Hello At</span></div>
         </md-card-header>
 
         <md-card-content>
@@ -30,7 +30,7 @@ export default {
 }
   .md-card {
     width: 40rem;
-    margin: 4px;
+    margin: 4rem;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   }
 
