@@ -18,3 +18,11 @@
 }
 
 $color: #f67280;
+@import "https://unpkg.com/vue-material/dist/vue-material.min.css";
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+@include md-register-theme("default", (
+  primary: $color, // The primary color of your brand
+  accent: $color // The secondary color of your brand
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme

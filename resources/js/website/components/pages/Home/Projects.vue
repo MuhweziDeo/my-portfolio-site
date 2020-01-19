@@ -5,7 +5,7 @@
 
           <h1>Latest Project</h1>
 
-       <Button text="My Portfolios" />
+       <Button text="My Portfolios" :click="navigate" />
 
       </div>
 
@@ -21,6 +21,11 @@
  export default {
      components: {
             Button
+     },
+     methods: {
+         navigate() {
+             this.$router.push('/portofolio');
+         }
      }
 
  }

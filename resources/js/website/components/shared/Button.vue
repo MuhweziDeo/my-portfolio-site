@@ -1,13 +1,26 @@
 <template>
     <md-button
-    :class="['btn',btnClass]" 
-    :style="{'background-color': setButtonColor, color: setTextColor}" 
+    @click="click"
+    :class="['btn',btnClass]"
+    :style="{'background-color': setButtonColor, color: setTextColor}"
     > {{text}}</md-button>
 </template>
 
 <script>
 export default {
-    props: ["text", "buttonColor", "textColor", "btnClass"],
+    props: {
+        text: {type: String},
+        buttonColor: {type: String},
+        textColor: {type: String},
+        btnClass: {type: String},
+        click: {
+            type: Function,
+            required: false,
+            default: function() {
+                return () => {}
+            }
+        }
+    },
     computed: {
         setButtonColor: function() {
             if(!this.buttonColor) {
@@ -19,7 +32,7 @@ export default {
                 return "white"
             }
         },
-        
+
     }
 }
 </script>
@@ -32,7 +45,7 @@ export default {
     height: 3rem;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     text-transform: none;
-    
+
 }
 
 

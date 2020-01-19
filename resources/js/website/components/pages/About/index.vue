@@ -1,12 +1,12 @@
 <template>
-<div>
+<div class="container">
     <h1 class="heading">About me</h1>
   <div class="about">
       <div class="left">
           <img class="" src="../../../img/Muhwezi Deo_2.png"/>
       </div>
       <div class="right">
-    <md-tabs class="md-primary">
+    <md-tabs class="md-transparent">
         <md-tab id="tab-home" class="md-active" md-label="Me">
             <p>Hi, I'm Muhwezi Deo a freelance Software Developer with an eye for solving problems. I like working on both backend and Frontend but these days I really like working on the frontend
                 Iam mainly work with Javascript and PHP but really open to learning new languages. I have worked in the past with Python and can easily work in a team or freelance.
@@ -51,12 +51,12 @@ export default {
     text-align: center;
     color: $color
 }
-.tab {
-    background: $color;
+.container {
+    padding: 2rem;
 }
 .about {
     display: flex;
-    padding: 2rem;
+    padding: 3rem;
     justify-content: space-around;
     justify-items: center;
     // align-items: center;
