@@ -8,10 +8,10 @@
                     <md-icon class="fa fa-google"></md-icon>
                 </div>
             <md-bottom-bar class="footer__nav">
-                <md-bottom-bar-item md-label="Home" md-icon="home" @click="navigate('/')"></md-bottom-bar-item>
-                <md-bottom-bar-item md-label="About"  md-icon="pages" @click="navigate('about')"></md-bottom-bar-item>
+                <md-bottom-bar-item  md-label="Home" md-icon="home" @click="navigate('/')"></md-bottom-bar-item>
+                <md-bottom-bar-item  md-label="About"  md-icon="pages" @click="navigate('about')"></md-bottom-bar-item>
                 <md-bottom-bar-item md-label="Portofolio" md-icon="pages" @click="navigate('portofolio')"></md-bottom-bar-item>
-                <md-bottom-bar-item md-label="Contact me" @click="navigate('contact')" md-icon="favorite"></md-bottom-bar-item>
+                <md-bottom-bar-item  md-label="Contact me" @click="navigate('contact')" md-icon="favorite"></md-bottom-bar-item>
             </md-bottom-bar>
             <md-button class="md-fab">
                 <md-icon>chat</md-icon>
@@ -21,10 +21,16 @@
 
 <script>
     export default {
+        created() {
+            console.log(this.$router.currentRoute.path)
+        },
         methods: {
             navigate(url) {
                 this.$router.push(url);
             }
+        },
+        watch: {
+        $route (to, from) {}
         }
     }
 
